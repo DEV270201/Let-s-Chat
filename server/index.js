@@ -58,7 +58,7 @@ io.on('connection', (socket) => {
             type: 'user',
             username: user.username,
             content: msg,
-            timeStamp: new Date().toISOString()
+            timeStamp: new Date()
         });
     });
 });
